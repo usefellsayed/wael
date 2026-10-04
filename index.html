@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d6b5b">
+<meta name="description" content="صدقة جارية للمرحوم وائل محمد عباس خضر">
+<title>صدقة جارية — وائل محمد عباس خضر</title>
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{--bg:#f4f7f5;--card:#fff;--text:#18312b;--muted:#71807a;--main:#0d6b5b;--main2:#15947d;--gold:#c99a3d;--line:#e2e9e5;--shadow:0 12px 35px rgba(16,48,40,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Tahoma,"Segoe UI",Arial,sans-serif;line-height:1.8}
+button,input,textarea,select{font:inherit}button{cursor:pointer}
+.top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);height:62px;display:flex;align-items:center;justify-content:space-between;padding:0 14px}
+.brand{font-weight:800;color:var(--main)}.top-actions{display:flex;gap:7px}.iconbtn{border:1px solid var(--line);background:#fff;border-radius:12px;width:42px;height:42px;color:var(--main)}
+.hero{max-width:1100px;margin:22px auto 0;padding:28px 18px 8px}
+.hero-box{background:linear-gradient(135deg,#083f36,#0d6b5b 58%,#15947d);color:white;border-radius:28px;padding:30px 22px;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.hero-box:after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.07);left:-90px;top:-100px}
+.hero-content{position:relative;z-index:1;text-align:center}
+.avatar{width:112px;height:112px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.85);box-shadow:0 8px 28px rgba(0,0,0,.22);background:#d9e5df}
+.avatar.empty{display:inline-flex;align-items:center;justify-content:center;font-size:38px}
+.kicker{font-size:14px;opacity:.85;margin-top:12px}.hero h1{font-size:30px;margin:4px 0 8px}.hero p{max-width:720px;margin:0 auto;opacity:.92}
+.hero-tools{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:20px}.hero-tools button{border:0;border-radius:999px;padding:9px 15px;background:white;color:var(--main);font-weight:700}
+.container{max-width:1100px;margin:auto;padding:12px 18px 100px}
+.section-title{display:flex;align-items:center;justify-content:space-between;margin:24px 0 12px}.section-title h2{font-size:21px;margin:0}.section-title span{font-size:12px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:17px 14px;box-shadow:0 4px 18px rgba(0,0,0,.035);transition:.18s;min-height:122px}.card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.card button{all:unset;display:block;width:100%;height:100%;cursor:pointer}.emoji{font-size:29px;display:block;margin-bottom:5px}.card b{font-size:15px}.card small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+.notice{background:#fffaf0;border:1px solid #f0dfb7;border-radius:18px;padding:14px 16px;color:#6c5423;margin-top:14px}
+.list{display:grid;gap:9px}.dhikr{background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px;position:relative}.dhikr b{color:var(--main)}.dhikr .count{float:left;background:#edf7f3;color:var(--main);padding:3px 9px;border-radius:999px;font-size:12px}
+.tasbih{background:linear-gradient(145deg,#073d34,#0d6b5b);color:#fff;border-radius:24px;padding:20px;text-align:center}.select{width:100%;max-width:450px;padding:12px;border-radius:12px;border:0;margin:5px 0 12px}.bigcount{font-size:62px;font-weight:900;line-height:1;margin:12px}.tasbih-btn{width:160px;height:160px;border-radius:50%;border:7px solid rgba(255,255,255,.2);background:#fff;color:var(--main);font-size:28px;font-weight:900;box-shadow:0 15px 35px rgba(0,0,0,.2)}.tasbih-row{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:15px}.tasbih-row button{border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:#fff;border-radius:12px;padding:8px 12px}
+.surah-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.surah{background:#fff;border:1px solid var(--line);padding:14px;border-radius:15px;text-align:center}.surah button{border:0;background:#edf7f3;color:var(--main);border-radius:9px;padding:6px 10px;margin-top:7px}
+.footer{text-align:center;color:var(--muted);font-size:12px;padding:30px 10px}
+.drawer{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.38);display:none}.drawer.open{display:block}.drawer-panel{width:min(370px,88vw);height:100%;background:#fff;overflow:auto;padding:18px;box-shadow:20px 0 50px rgba(0,0,0,.15)}.drawer-head{display:flex;align-items:center;justify-content:space-between}.menu-section{border-top:1px solid var(--line);padding:13px 0}.menu-section h3{margin:0 0 8px;font-size:14px;color:var(--main)}.menu-section button{display:block;width:100%;text-align:right;border:0;background:none;padding:8px 3px;color:var(--text)}
+.modal{position:fixed;inset:0;z-index:120;background:rgba(0,0,0,.5);display:none;align-items:flex-end;justify-content:center}.modal.open{display:flex}.modal-box{background:#fff;width:min(760px,100%);max-height:88vh;overflow:auto;border-radius:24px 24px 0 0;padding:20px}.modal-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:10px}.close{border:0;background:#f1f4f2;border-radius:10px;width:40px;height:40px}.modal-content{padding-top:14px}.copybtn{border:0;background:var(--main);color:#fff;border-radius:11px;padding:9px 14px;margin-top:10px}.search{width:100%;border:1px solid var(--line);background:#fff;border-radius:12px;padding:11px;margin:8px 0 14px}
+.toast{position:fixed;bottom:78px;left:50%;transform:translateX(-50%) translateY(20px);background:#18312b;color:#fff;padding:10px 15px;border-radius:12px;opacity:0;pointer-events:none;transition:.25s;z-index:200}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.bottom{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line);z-index:60;display:flex;justify-content:space-around;padding:8px 4px calc(8px + env(safe-area-inset-bottom))}.bottom button{border:0;background:none;color:var(--muted);font-size:11px}.bottom .ico{display:block;font-size:20px}.bottom button.active{color:var(--main);font-weight:800}
+.dark{--bg:#0d1715;--card:#14231f;--text:#e8f0ed;--muted:#9db0aa;--line:#29403a}.dark .top,.dark .bottom,.dark .drawer-panel,.dark .modal-box,.dark .card,.dark .dhikr,.dark .surah,.dark .search{background:#14231f}.dark .iconbtn,.dark .close{background:#1b302a;color:#e8f0ed}.dark .notice{background:#2b2516;color:#ead9aa;border-color:#544623}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.surah-grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:25px}}
+@media(max-width:430px){.grid{gap:8px}.card{padding:13px 11px;min-height:110px}.emoji{font-size:25px}.container{padding-inline:12px}.hero{padding-inline:10px}.hero-box{border-radius:22px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">🕌 صدقة جارية</div>
+  <div class="top-actions"><button class="iconbtn" onclick="toggleDark()" aria-label="الوضع الليلي">◐</button><button class="iconbtn" onclick="openDrawer()" aria-label="القائمة">☰</button></div>
+</header>
+
+<section class="hero" id="home">
+ <div class="hero-box"><div class="hero-content">
+   <div id="avatarWrap"></div>
+   <div class="kicker">اللهم اجعل ثواب هذه الصفحة من قرآن وذكر ودعاء</div>
+   <h1>صدقة جارية للمرحوم<br>وائل محمد عباس خضر</h1>
+   <p>يمكنك قراءة القرآن، والدعاء، والتسبيح والاستغفار والصلاة على النبي ﷺ، وجعل نيتك الثواب للمرحوم.</p>
+   <div class="hero-tools"><button onclick="shareSite()">↗ مشاركة الصفحة</button><button onclick="copyLink()">⧉ نسخ الرابط</button><button onclick="openModal('dua')">🤲 دعاء للمرحوم</button></div>
+ </div></div>
+</section>
+
+<main class="container">
+ <div class="notice">🌿 <b>تنبيه:</b> العدادات الموجودة في الموقع محلية على جهازك، وليست أرقامًا عالمية أو إثباتًا لعدد من قام بالذكر.</div>
+
+ <div class="section-title"><h2>الأقسام الرئيسية</h2><span>اختر ما تريد</span></div>
+ <div class="grid">
+  <div class="card"><button onclick="openModal('dua')"><span class="emoji">🤲</span><b>دعاء للمرحوم</b><small>أدعية مختارة</small></button></div>
+  <div class="card"><button onclick="openModal('tasbih')"><span class="emoji">📿</span><b>المسبحة الإلكترونية</b><small>اختَر الذكر وعدّ مراتك</small></button></div>
+  <div class="card"><button onclick="openModal('quran')"><span class="emoji">📖</span><b>القرآن الكريم</b><small>سور مختارة للقراءة</small></button></div>
+  <div class="card"><button onclick="openModal('khatma')"><span class="emoji">📚</span><b>ختمة قرآن</b><small>تنظيم ورد القراءة</small></button></div>
+  <div class="card"><button onclick="openModal('morning')"><span class="emoji">🌅</span><b>أذكار الصباح</b><small>ورد صباحي</small></button></div>
+  <div class="card"><button onclick="openModal('evening')"><span class="emoji">🌙</span><b>أذكار المساء</b><small>ورد مسائي</small></button></div>
+  <div class="card"><button onclick="openModal('afterprayer')"><span class="emoji">🕋</span><b>أذكار بعد الصلاة</b><small>أذكار مختصرة</small></button></div>
+  <div class="card"><button onclick="openModal('sleep')"><span class="emoji">🌌</span><b>أذكار النوم</b><small>قبل النوم</small></button></div>
+  <div class="card"><button onclick="setDhikr('أستغفر الله')"><span class="emoji">🌿</span><b>الاستغفار</b><small>عداد استغفار مباشر</small></button></div>
+  <div class="card"><button onclick="setDhikr('الله أكبر')"><span class="emoji">✨</span><b>التكبير</b><small>الله أكبر</small></button></div>
+  <div class="card"><button onclick="setDhikr('لا حول ولا قوة إلا بالله')"><span class="emoji">💚</span><b>الحوقلة</b><small>لا حول ولا قوة إلا بالله</small></button></div>
+  <div class="card"><button onclick="setDhikr('اللهم صل وسلم على نبينا محمد')"><span class="emoji">ﷺ</span><b>الصلاة على النبي</b><small>صل وسلم على محمد ﷺ</small></button></div>
+  <div class="card"><button onclick="setDhikr('سبحان الله')"><span class="emoji">🌸</span><b>التسبيح</b><small>سبحان الله</small></button></div>
+  <div class="card"><button onclick="openModal('garden')"><span class="emoji">🌴</span><b>غرس الجنة</b><small>أذكار وتذكير</small></button></div>
+  <div class="card"><button onclick="openModal('minute')"><span class="emoji">⏱️</span><b>دقيقة استغفار</b><small>مؤقت دقيقة</small></button></div>
+  <div class="card"><button onclick="openModal('daily')"><span class="emoji">☀️</span><b>وردي اليومي</b><small>قائمة سريعة</small></button></div>
+  <div class="card"><button onclick="openModal('names')"><span class="emoji">💫</span><b>أسماء الله الحسنى</b><small>أسماء ومعاني مختصرة</small></button></div>
+  <div class="card"><button onclick="openModal('hadith')"><span class="emoji">📜</span><b>حديث اليوم</b><small>تذكير قصير</small></button></div>
+  <div class="card"><button onclick="openModal('ayah')"><span class="emoji">🕊️</span><b>آية اليوم</b><small>تدبر وقراءة</small></button></div>
+  <div class="card"><button onclick="openModal('quiz')"><span class="emoji">❓</span><b>اختبار ديني</b><small>أسئلة بسيطة</small></button></div>
+  <div class="card"><button onclick="openModal('custom')"><span class="emoji">✍️</span><b>ذكرك الخاص</b><small>اكتب ذكرك وعدّه</small></button></div>
+  <div class="card"><button onclick="openModal('share')"><span class="emoji">📲</span><b>مشاركة الصفحة</b><small>رسالة جاهزة للأصدقاء</small></button></div>
+ </div>
+
+ <div class="section-title"><h2>تذكير للزائر</h2><span>نية طيبة</span></div>
+ <div class="card" style="min-height:auto;text-align:center">
+  <b>اللهم اغفر له وارحمه وعافه واعف عنه، وأكرم نزله، ووسع مدخله.</b>
+  <br><button class="copybtn" onclick="copyText('اللهم اغفر له وارحمه وعافه واعف عنه، وأكرم نزله، ووسع مدخله.')">نسخ الدعاء</button>
+ </div>
+</main>
+
+<div class="footer">اللهم اجعلها صدقة جارية ونفعًا لمن يزورها • وائل محمد عباس خضر</div>
+
+<nav class="bottom">
+ <button class="active" onclick="scrollToId('home')"><span class="ico">⌂</span>الرئيسية</button>
+ <button onclick="openModal('tasbih')"><span class="ico">📿</span>المسبحة</button>
+ <button onclick="openModal('quran')"><span class="ico">📖</span>القرآن</button>
+ <button onclick="openModal('dua')"><span class="ico">🤲</span>الدعاء</button>
+ <button onclick="openDrawer()"><span class="ico">☰</span>المزيد</button>
+</nav>
+
+<div class="drawer" id="drawer" onclick="if(event.target===this)closeDrawer()">
+ <aside class="drawer-panel">
+  <div class="drawer-head"><h2>القائمة</h2><button class="close" onclick="closeDrawer()">×</button></div>
+  <div class="menu-section"><h3>صدقة جارية للمرحوم</h3>
+   <button onclick="go('dua')">🤲 دعاء خاص للمرحوم</button><button onclick="go('tasbih')">📿 مسبحة للمرحوم</button><button onclick="go('quran')">📖 قراءة القرآن</button><button onclick="go('khatma')">📚 ورد ختمة القرآن</button><button onclick="go('share')">📲 مشاركة الصفحة</button>
+  </div>
+  <div class="menu-section"><h3>الأذكار</h3>
+   <button onclick="go('morning')">🌅 أذكار الصباح</button><button onclick="go('evening')">🌙 أذكار المساء</button><button onclick="go('afterprayer')">🕋 بعد الصلاة</button><button onclick="go('sleep')">🌌 أذكار النوم</button><button onclick="go('daily')">☀️ وردي اليومي</button>
+  </div>
+  <div class="menu-section"><h3>التسبيح والذكر</h3>
+   <button onclick="setDhikr('أستغفر الله')">الاستغفار</button><button onclick="setDhikr('الله أكبر')">التكبير</button><button onclick="setDhikr('لا حول ولا قوة إلا بالله')">الحوقلة</button><button onclick="setDhikr('سبحان الله')">التسبيح</button><button onclick="setDhikr('الحمد لله')">الحمد لله</button><button onclick="setDhikr('لا إله إلا الله')">التهليل</button><button onclick="setDhikr('اللهم صل وسلم على نبينا محمد')">الصلاة على النبي ﷺ</button><button onclick="go('custom')">إنشاء ذكر خاص</button>
+  </div>
+  <div class="menu-section"><h3>متفرقات</h3>
+   <button onclick="go('names')">أسماء الله الحسنى</button><button onclick="go('hadith')">أحاديث مختارة</button><button onclick="go('ayah')">آية اليوم</button><button onclick="go('quiz')">اختبار ديني</button><button onclick="go('minute')">دقيقة استغفار</button><button onclick="go('garden')">غرس الجنة</button>
+  </div>
+ </aside>
+</div>
+
+<div class="modal" id="modal">
+ <div class="modal-box">
+  <div class="modal-head"><h2 id="modalTitle">عنوان</h2><button class="close" onclick="closeModal()">×</button></div>
+  <div class="modal-content" id="modalContent"></div>
+ </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const A=JSON.parse(localStorage.getItem('waelCounts')||'{}');
+let currentDhikr=localStorage.getItem('waelDhikr')||'سبحان الله';
+let quizIndex=0;
+const surahs={
+'الفاتحة':`بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۝ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ۝ الرَّحْمَٰنِ الرَّحِيمِ ۝ مَالِكِ يَوْمِ الدِّينِ ۝ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ۝ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ۝ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ۝`,
+'الإخلاص':`قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ ۝`,
+'الفلق':`قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ مَا خَلَقَ ۝ وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ ۝`,
+'الناس':`قُلْ أَعُوذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَٰهِ النَّاسِ ۝ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۝ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ ۝`
+};
+const adhkar={
+morning:[
+'أصبحنا وأصبح الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له.',
+'اللهم بك أصبحنا وبك أمسينا وبك نحيا وبك نموت وإليك النشور.',
+'رضيت بالله ربًا، وبالإسلام دينًا، وبمحمد ﷺ نبيًا.',
+'حسبي الله لا إله إلا هو عليه توكلت وهو رب العرش العظيم.'
+],
+evening:[
+'أمسينا وأمسى الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له.',
+'اللهم بك أمسينا وبك أصبحنا وبك نحيا وبك نموت وإليك المصير.',
+'رضيت بالله ربًا، وبالإسلام دينًا، وبمحمد ﷺ نبيًا.'
+],
+afterprayer:[
+'أستغفر الله (ثلاثًا).',
+'اللهم أنت السلام ومنك السلام تباركت يا ذا الجلال والإكرام.',
+'سبحان الله 33 مرة، والحمد لله 33 مرة، والله أكبر 33 مرة، ثم تمام المائة: لا إله إلا الله وحده لا شريك له.'
+],
+sleep:[
+'باسمك اللهم أموت وأحيا.',
+'اللهم قني عذابك يوم تبعث عبادك.',
+'قراءة آية الكرسي وخواتيم سورة البقرة والمعوذات مما ورد في أذكار النوم.'
+]
+};
+const names=[['الرحمن','واسع الرحمة'],['الرحيم','كثير الرحمة بعباده'],['الملك','المالك لكل شيء'],['القدوس','المنزه عن كل نقص'],['السلام','السالم من العيوب'],['المؤمن','الذي يؤمّن عباده'],['المهيمن','الرقيب الحافظ'],['العزيز','الغالب الذي لا يُغلب'],['الجبار','الذي يجبر الضعيف'],['المتكبر','المتعالي عن صفات الخلق'],['الخالق','مبدع الخلق'],['البارئ','الذي خلق الخلق وأوجدهم'],['المصور','الذي صور خلقه'],['الغفار','كثير المغفرة'],['الوهاب','كثير العطاء'],['الرزاق','كثير الرزق'],['الفتاح','يفتح أبواب الخير'],['العليم','المحيط بكل شيء علمًا']];
+const quizzes=[
+['ما هي أول سورة في المصحف؟',['الفاتحة','البقرة','الإخلاص'],0],
+['كم عدد الصلوات المفروضة في اليوم والليلة؟',['3','5','7'],1],
+['ما هي قبلة المسلمين؟',['المسجد الأقصى','الكعبة','المسجد النبوي'],1]
+];
+
+function avatar(){
+ const w=document.getElementById('avatarWrap');
+ if(document.querySelector('img[src="wael.jpg"]')) return;
+ const img=new Image();img.src='wael.jpg';img.className='avatar';img.onerror=()=>{w.innerHTML='<div class="avatar empty">و</div>'};img.onload=()=>w.appendChild(img);
+}
+avatar();
+
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1800)}
+function copyText(t){navigator.clipboard?.writeText(t).then(()=>toast('تم النسخ')).catch(()=>toast('حدد النص وانسخه'))}
+function copyLink(){copyText(location.href)}
+async function shareSite(){const data={title:'صدقة جارية — وائل محمد عباس خضر',text:'صدقة جارية للمرحوم وائل محمد عباس خضر. اللهم اغفر له وارحمه.',url:location.href}; if(navigator.share){try{await navigator.share(data)}catch(e){}}else copyLink()}
+function toggleDark(){document.body.classList.toggle('dark');localStorage.setItem('dark',document.body.classList.contains('dark'))}
+if(localStorage.getItem('dark')==='true')document.body.classList.add('dark');
+
+function openDrawer(){document.getElementById('drawer').classList.add('open')}
+function closeDrawer(){document.getElementById('drawer').classList.remove('open')}
+function go(k){closeDrawer();openModal(k)}
+function scrollToId(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
+
+function setDhikr(d){currentDhikr=d;localStorage.setItem('waelDhikr',d);closeDrawer();openModal('tasbih')}
+
+function countDhikr(){
+ A[currentDhikr]=(A[currentDhikr]||0)+1;localStorage.setItem('waelCounts',JSON.stringify(A));
+ const n=document.getElementById('bigCount');if(n)n.textContent=A[currentDhikr];
+ if(navigator.vibrate)navigator.vibrate(20);
+}
+function resetCount(){A[currentDhikr]=0;localStorage.setItem('waelCounts',JSON.stringify(A));const n=document.getElementById('bigCount');if(n)n.textContent=0}
+function tasbihHTML(){
+ const options=['سبحان الله','الحمد لله','الله أكبر','أستغفر الله','لا إله إلا الله','لا حول ولا قوة إلا بالله','اللهم صل وسلم على نبينا محمد'];
+ return `<div class="tasbih"><div>الذكر الحالي</div><select class="select" onchange="setDhikr(this.value)">${options.map(x=>`<option ${x===currentDhikr?'selected':''}>${x}</option>`).join('')}</select><div id="bigCount" class="bigcount">${A[currentDhikr]||0}</div><button class="tasbih-btn" onclick="countDhikr()">اذكر</button><div class="tasbih-row"><button onclick="resetCount()">تصفير</button><button onclick="countN(33)">+33</button><button onclick="countN(100)">+100</button></div><p style="opacity:.8;font-size:12px">العداد محفوظ على هذا الجهاز فقط.</p></div>`
+}
+function countN(n){A[currentDhikr]=(A[currentDhikr]||0)+n;localStorage.setItem('waelCounts',JSON.stringify(A));document.getElementById('bigCount').textContent=A[currentDhikr]}
+
+function listHTML(arr){return '<div class="list">'+arr.map((x,i)=>`<div class="dhikr"><span class="count">${i+1}</span>${x}</div>`).join('')+'</div>'}
+
+function openModal(type){
+ const titles={dua:'دعاء للمرحوم',tasbih:'المسبحة الإلكترونية',quran:'القرآن الكريم',khatma:'ختمة القرآن',morning:'أذكار الصباح',evening:'أذكار المساء',afterprayer:'أذكار بعد الصلاة',sleep:'أذكار النوم',garden:'غرس الجنة',minute:'دقيقة استغفار',daily:'وردي اليومي',names:'أسماء الله الحسنى',hadith:'حديث وتذكير',ayah:'آية اليوم',quiz:'اختبار ديني',custom:'ذكرك الخاص',share:'مشاركة الصفحة'};
+ let c='';
+ if(type==='tasbih')c=tasbihHTML();
+ if(type==='dua')c=`<div class="list"><div class="dhikr">اللهم اغفر له وارحمه وعافه واعف عنه، وأكرم نزله، ووسع مدخله.</div><div class="dhikr">اللهم اجعل قبره روضة من رياض الجنة، ونوّر له فيه، واغفر له وارحمه.</div><div class="dhikr">اللهم ارفع درجته في المهديين، واخلفه في عقبه في الغابرين، واغفر لنا وله يا رب العالمين.</div></div><button class="copybtn" onclick="copyText('اللهم اغفر له وارحمه وعافه واعف عنه، وأكرم نزله، ووسع مدخله.')">نسخ دعاء مختصر</button>`;
+ if(['morning','evening','afterprayer','sleep'].includes(type))c=listHTML(adhkar[type]);
+ if(type==='quran')c=`<div class="surah-grid">${Object.keys(surahs).map(s=>`<div class="surah"><b>سورة ${s}</b><br><button onclick="showSurah('${s}')">قراءة</button></div>`).join('')}<div class="surah"><b>سورة الكوثر</b><br><button onclick="showText('سورة الكوثر','إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ ۝ فَصَلِّ لِرَبِّكَ وَانْحَرْ ۝ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ ۝')">قراءة</button></div><div class="surah"><b>سورة العصر</b><br><button onclick="showText('سورة العصر','وَالْعَصْرِ ۝ إِنَّ الْإِنسَانَ لَفِي خُسْرٍ ۝ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ ۝')">قراءة</button></div></div><div class="notice">هذه مكتبة سور قصيرة داخلية. للقراءة الكاملة للقرآن يمكن إضافة نسخة كاملة لاحقًا.</div>`;
+ if(type==='khatma')c=`<div class="notice">قسّم القرآن على أيامك، وسجّل آخر جزء وصلت إليه على جهازك.</div><label>آخر جزء وصلت إليه: <input id="juz" class="search" type="number" min="1" max="30" value="${localStorage.getItem('juz')||1}" onchange="localStorage.setItem('juz',this.value)"></label><div class="card" style="min-height:auto;margin-top:8px"><b>اقتراح ورد:</b><br>جزء يوميًا = ختمة تقريبًا كل شهر.<br>جزآن يوميًا = ختمتان تقريبًا كل شهر.</div>`;
+ if(type==='garden')c=`<div class="tasbih"><div style="font-size:45px">🌴</div><h3>غرس الجنة بالذكر</h3><p>سبحان الله • الحمد لله • الله أكبر • لا إله إلا الله</p><button class="tasbih-row" style="margin:auto" onclick="setDhikr('سبحان الله')">ابدأ التسبيح</button></div>`;
+ if(type==='minute')c=`<div class="tasbih"><div id="timer" class="bigcount">60</div><p>استغفر الله أثناء العد التنازلي.</p><button class="copybtn" onclick="startMinute()">ابدأ الدقيقة</button></div>`;
+ if(type==='daily')c=listHTML(['الفاتحة','أذكار الصباح','100 استغفار','الصلاة على النبي ﷺ','قراءة ما تيسر من القرآن','أذكار المساء']);
+ if(type==='names')c='<input class="search" placeholder="ابحث عن اسم..." oninput="filterNames(this.value)"><div id="namesList" class="list">'+names.map(n=>`<div class="dhikr"><b>${n[0]}</b> — ${n[1]}</div>`).join('')+'</div>';
+ if(type==='hadith')c=`<div class="dhikr"><b>تذكير:</b><br>«كلمتان خفيفتان على اللسان، ثقيلتان في الميزان، حبيبتان إلى الرحمن: سبحان الله وبحمده، سبحان الله العظيم».</div><p style="color:var(--muted);font-size:12px">رواه البخاري ومسلم.</p>`;
+ if(type==='ayah')c=`<div class="dhikr" style="font-size:20px;text-align:center"><b>﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾</b><br><small>الرعد: 28</small></div>`;
+ if(type==='quiz')c=quizHTML();
+ if(type==='custom')c=`<input id="customDhikr" class="search" placeholder="اكتب الذكر الذي تريده"><button class="copybtn" onclick="useCustom()">استخدام الذكر</button>`;
+ if(type==='share')c=`<div class="dhikr">🌿 شارك الصفحة مع من تحب ليدعو للمرحوم.</div><textarea class="search" rows="5" readonly>صدقة جارية للمرحوم وائل محمد عباس خضر 🤲<br>اللهم اغفر له وارحمه.</textarea><button class="copybtn" onclick="shareSite()">مشاركة</button>`;
+ document.getElementById('modalTitle').textContent=titles[type]||'صفحة';
+ document.getElementById('modalContent').innerHTML=c;document.getElementById('modal').classList.add('open');
+}
+function closeModal(){document.getElementById('modal').classList.remove('open')}
+function showText(t,x){document.getElementById('modalTitle').textContent=t;document.getElementById('modalContent').innerHTML=`<div class="dhikr" style="font-size:23px;text-align:center;line-height:2.2">${x}</div><button class="copybtn" onclick="copyText(${JSON.stringify(x)})">نسخ</button>`}
+function showSurah(s){showText('سورة '+s,surahs[s])}
+function filterNames(v){document.querySelectorAll('#namesList .dhikr').forEach(e=>e.style.display=e.textContent.includes(v)?'block':'none')}
+let timerInt=null;function startMinute(){clearInterval(timerInt);let n=60;document.getElementById('timer').textContent=n;timerInt=setInterval(()=>{n--;document.getElementById('timer').textContent=n;if(n<=0){clearInterval(timerInt);toast('انتهت الدقيقة، جزاك الله خيرًا')}} ,1000)}
+function useCustom(){const d=document.getElementById('customDhikr').value.trim();if(!d)return toast('اكتب الذكر أولًا');setDhikr(d)}
+function quizHTML(){let q=quizzes[quizIndex%quizzes.length];return `<div class="dhikr"><b>${q[0]}</b><div style="display:grid;gap:8px;margin-top:12px">${q[1].map((a,i)=>`<button class="copybtn" style="background:${i===q[2]?'#0d6b5b':'#71807a'}" onclick="answerQuiz(${i},${q[2]})">${a}</button>`).join('')}</div></div>`}
+function answerQuiz(i,c){toast(i===c?'إجابة صحيحة ✓':'حاول مرة أخرى');if(i===c){quizIndex++;setTimeout(()=>openModal('quiz'),500)}}
+</script>
+</body></html>
